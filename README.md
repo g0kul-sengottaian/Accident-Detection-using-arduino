@@ -12,6 +12,8 @@ Force Sensing Resistor (FSR): Detects if the driver is on the seat or not.
 GPS Module: Provides real-time location data.
 GSM Module: Sends SMS notifications to emergency contacts.
 Buzzer: Emits a sound alert when an accident is detected.
+
+
 Project Description:
 This system detects accidents by monitoring the bike's tilt and the driver's position. If an accident is detected, the system sends the bike's current location to predefined contacts, such as family members and an ambulance driver. Below are the three test cases that the system is designed to handle:
 
