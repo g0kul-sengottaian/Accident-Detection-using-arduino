@@ -18,11 +18,13 @@ Test Case 1: Detecting Bike Tilt
 Objective: To determine if the bike has fallen.
 Method: The MPU6050 sensor monitors the bike's orientation. When the tilt exceeds a certain threshold value, the system predicts that the bike has tilted or fallen.
 Outcome: If the tilt threshold is exceeded, the system proceeds to the next test case to determine the driver's status.
+
 Test Case 2: Checking Driver's Position
 
 Objective: To check if the driver is still on the seat after the bike has tilted.
 Method: The Force Sensing Resistor (FSR) detects whether the driver is on the seat. If the driver is not on the seat, it indicates a potential accident where the driver might have been thrown off.
 Outcome: If the driver is off the seat, the system sends the current GPS location to family members and the ambulance driver via the GSM module.
+
 Test Case 3: Driver Response Check
 
 Objective: To determine if the driver needs help when the bike is tilted, but the driver is still on the seat.
