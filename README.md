@@ -1,6 +1,8 @@
 Accident Detection System using Arduino, GPS, and GSM
 Overview:
 Accidents pose a significant risk to life and often result in higher death rates than many diseases, including cancer. To address this issue, we have developed a user-friendly accident detection system. This system leverages Arduino technology, along with GPS and GSM modules, to detect accidents and notify emergency contacts instantly.
+![accident detection](https://github.com/g0kul-sengottaian/Accident-Detection-using-arduino/assets/159171191/c40d922c-a387-498a-946d-480f43a36a32)
+
 
 Components:
 
